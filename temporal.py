@@ -1,7 +1,7 @@
 from pandas import read_csv
 from matplotlib import pyplot
 
-url = "https://raw.githubusercontent.com/SlaterJp/UDF/main/caso_full.csv.gz"
+url = "https://raw.githubusercontent.com/SlaterJp/UDF/main/WHO-COVID-19-global-daily-data.csv"
 
 series = (
     read_csv(
